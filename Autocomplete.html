@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+	<head>
+    	<meta charset="utf-8">
+		<title>Auto Complete</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="select2 jquery plugin">
+        <meta name="author" content="Nahian">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/prettify.css">
+        
+        <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mousewheel.js"></script> <!-- enable mousewheel when long list in autoc -->
+        <script type="text/javascript" src="js/prettify.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        
+    </head>
+    
+    <body>
+    	
+        <link rel="stylesheet" href="css/select2.css">
+        <script type="text/javascript" src="js/select21.js"></script>
+		
+		<script id="script_e9">
+			$(document).ready(function() {
+				$("#e9").select2();
+			});
+		</script>
+        
+        <div align="center">
+        	
+                
+                <em><b>Auto-Complete control by Nahian</b></em>
+                
+                <br><br>
+                
+                <select multiple name="e9" id="e9" style="width:300px" class="populate select2-offscreen" tabindex="-1">
+                	<optgroup label="ADMIN">
+                    	<option value="sami">DR. SAMIUL HAQUE</option>
+                    	<option value="kayser">KAYSER HABIB</option>
+                    </optgroup>
+					<optgroup label="DEVELOPER">
+                    	<option value="rajib">RAJIB KUMAR</option>
+                    	<option value="nahian">NAHIAN ISLAM</option>
+						<option value="jabed">JABED BENGALI</option>
+                    </optgroup>
+                </select>
+                
+        	
+        </div>
+        
+    </body>
+</html>
